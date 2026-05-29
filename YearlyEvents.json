@@ -1,0 +1,71 @@
+{
+    "last_updated": "2026-05-28T12:00:00Z",
+    "events": [
+      {
+        "id": "halloween_2026",
+        "title": "Halloween Event",
+        "description": "The dead rise stronger than ever. Special rewards await those who fight!",
+        "type": "yearly",
+        "banner_image_url": "https://yourdomain.com/events/halloween_banner.png",
+        "start_month_day": "10-30",
+        "end_month_day": "11-07",
+        "start_hour_utc": 0,
+        "end_hour_utc": 23,
+        "min_player_level": 1,
+        "max_player_level": 100,
+        
+        "xp_multiplier": 2.0,
+        "resource_multiplier": 1.5,
+        "money_multiplier": 1.8,
+        "loot_rarity_multiplier": 1.6,
+        
+        "global_elite_chance_multiplier": 1.8,
+        
+        "enabled": true,
+        "show_in_menu": true,
+        "steam_stat_name": "EVENT_HALLOWEEN_KILLS",
+        
+        "kill_objectives": [
+          {
+            "enemy_type_id": 5,
+            "personal_target": 10000,
+            "global_target": 1000000,
+            "loot_rarity_multiplier": 2.5,
+            "spawn_weight_multiplier": 2.0,
+            "power_level_multiplier": 1.4,
+            "elite_chance_multiplier": 3.0
+          }
+        ],
+        
+        "mission_objectives": [
+          {
+            "mission_type_id": 3,
+            "personal_target": 25,
+            "global_target": 8000
+          }
+        ],
+
+        "reward_packages": [
+            {
+              "rewards": [
+                { "type": "currency", "name": "EventTokens", "amount": 300 },
+                { "type": "item", "name": "HalloweenSupplyCrate", "amount": 2 }
+              ]
+            },
+            {
+              "rewards": [
+                { "type": "currency", "name": "PremiumCurrency", "amount": 500 },
+                { "type": "item", "name": "HighQualityRNGGatlingGun", "amount": 1, "rarity_tier": 3, "quality": 2 }
+              ]
+            },
+            {
+              "rewards": [
+                { "type": "currency", "name": "EventTokens", "amount": 1500 },
+                { "type": "item", "name": "LegendaryEventWeapon", "amount": 1, "rarity_tier": 5, "quality": 3 }
+              ]
+            }
+          ]
+
+      }
+    ]
+  }
