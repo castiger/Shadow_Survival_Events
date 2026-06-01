@@ -1,0 +1,93 @@
+{
+    "last_updated": "2026-06-01T12:00:00Z",
+    "weekend_events": [
+        {
+            "id": "double_xp_weekend",
+            "title": "Double XP Weekend",
+            "description": "Knowledge comes faster. Push your limits.",
+            "type": "weekend",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/double_xp.jpg",
+            "week_position": 1,
+            "xp_multiplier": 2.0,
+            "resource_multiplier": 1.0,
+            "money_multiplier": 1.0,
+            "loot_rarity_multiplier": 1.0,
+            "global_elite_chance_multiplier": 1.0,
+            "enabled": true,
+            "steam_stat_name": "WEEKEND_DOUBLE_XP",
+            "kill_objectives": [
+                { "enemy_type_id": 1, "personal_target": 3000, "global_target": 300000, "loot_rarity_multiplier": 1.3, "spawn_weight_multiplier": 1.2, "power_level_multiplier": 1.1, "elite_chance_multiplier": 1.4 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 1, "personal_target": 12, "global_target": 800 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 300 }] }
+            ]
+        },
+        {
+            "id": "double_resources_weekend",
+            "title": "Resource Surge",
+            "description": "The wasteland yields more than usual.",
+            "type": "weekend",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/double_resources.jpg",
+            "week_position": 2,
+            "xp_multiplier": 1.0,
+            "resource_multiplier": 2.0,
+            "money_multiplier": 1.0,
+            "loot_rarity_multiplier": 1.0,
+            "global_elite_chance_multiplier": 1.0,
+            "enabled": true,
+            "steam_stat_name": "WEEKEND_DOUBLE_RESOURCES",
+            "kill_objectives": [],
+            "mission_objectives": [],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 250 }] }
+            ]
+        },
+        {
+            "id": "double_currency_weekend",
+            "title": "Fortune Weekend",
+            "description": "Scrap flows like water. Make your fortune.",
+            "type": "weekend",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/double_currency.jpg",
+            "week_position": 3,
+            "xp_multiplier": 1.0,
+            "resource_multiplier": 1.0,
+            "money_multiplier": 2.5,
+            "loot_rarity_multiplier": 1.0,
+            "global_elite_chance_multiplier": 1.0,
+            "enabled": true,
+            "steam_stat_name": "WEEKEND_DOUBLE_CURRENCY",
+            "kill_objectives": [],
+            "mission_objectives": [],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 350 }] }
+            ]
+        },
+        {
+            "id": "monster_apocalypse",
+            "title": "Monster Apocalypse",
+            "description": "The hordes grow restless. A true test of survival.",
+            "type": "weekend",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/monster_apocalypse.jpg",
+            "week_position": 4,
+            "xp_multiplier": 1.6,
+            "resource_multiplier": 1.4,
+            "money_multiplier": 1.5,
+            "loot_rarity_multiplier": 1.8,
+            "global_elite_chance_multiplier": 2.5,
+            "enabled": true,
+            "steam_stat_name": "WEEKEND_MONSTER_APOCALYPSE",
+            "kill_objectives": [
+                { "enemy_type_id": 8, "personal_target": 8000, "global_target": 700000, "loot_rarity_multiplier": 2.0, "spawn_weight_multiplier": 2.5, "power_level_multiplier": 1.6, "elite_chance_multiplier": 3.0 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 3, "personal_target": 25, "global_target": 1500 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "item", "name": "ApocalypseCrate", "amount": 2, "rarity_tier": 4 }] }
+            ]
+        }
+    ]
+}
