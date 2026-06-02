@@ -1,71 +1,215 @@
 {
-    "last_updated": "2026-05-28T12:00:00Z",
+    "last_updated": "2026-06-01T12:00:00Z",
     "events": [
-      {
-        "id": "halloween_2026",
-        "title": "Halloween Event",
-        "description": "The dead rise stronger than ever. Special rewards await those who fight!",
-        "type": "yearly",
-        "banner_image_url": "https://yourdomain.com/events/halloween_banner.png",
-        "start_month_day": "10-30",
-        "end_month_day": "11-07",
-        "start_hour_utc": 0,
-        "end_hour_utc": 23,
-        "min_player_level": 1,
-        "max_player_level": 100,
-        
-        "xp_multiplier": 2.0,
-        "resource_multiplier": 1.5,
-        "money_multiplier": 1.8,
-        "loot_rarity_multiplier": 1.6,
-        
-        "global_elite_chance_multiplier": 1.8,
-        
-        "enabled": true,
-        "show_in_menu": true,
-        "steam_stat_name": "EVENT_HALLOWEEN_KILLS",
-        
-        "kill_objectives": [
-          {
-            "enemy_type_id": 5,
-            "personal_target": 10000,
-            "global_target": 1000000,
-            "loot_rarity_multiplier": 2.5,
-            "spawn_weight_multiplier": 2.0,
-            "power_level_multiplier": 1.4,
-            "elite_chance_multiplier": 3.0
-          }
-        ],
-        
-        "mission_objectives": [
-          {
-            "mission_type_id": 3,
-            "personal_target": 25,
-            "global_target": 8000
-          }
-        ],
-
-        "reward_packages": [
-            {
-              "rewards": [
-                { "type": "currency", "name": "EventTokens", "amount": 300 },
-                { "type": "item", "name": "HalloweenSupplyCrate", "amount": 2 }
-              ]
-            },
-            {
-              "rewards": [
-                { "type": "currency", "name": "PremiumCurrency", "amount": 500 },
-                { "type": "item", "name": "HighQualityRNGGatlingGun", "amount": 1, "rarity_tier": 3, "quality": 2 }
-              ]
-            },
-            {
-              "rewards": [
-                { "type": "currency", "name": "EventTokens", "amount": 1500 },
-                { "type": "item", "name": "LegendaryEventWeapon", "amount": 1, "rarity_tier": 5, "quality": 3 }
-              ]
-            }
-          ]
-
-      }
+        {
+            "id": "new_year_reckoning",
+            "title": "New Year's Reckoning",
+            "description": "The world survived another year. Prove you deserve to see the next.",
+            "type": "holiday",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/new_year_reckoning.jpg",
+            "start_month_day": "12-29",
+            "end_month_day": "01-07",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.0,
+            "resource_multiplier": 1.8,
+            "money_multiplier": 2.0,
+            "loot_rarity_multiplier": 1.7,
+            "global_elite_chance_multiplier": 2.0,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_NEWYEAR_RECKONING",
+            "kill_objectives": [
+                { "enemy_type_id": 1, "personal_target": 5000, "global_target": 500000, "loot_rarity_multiplier": 1.8, "spawn_weight_multiplier": 1.5, "power_level_multiplier": 1.3, "elite_chance_multiplier": 2.0 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 1, "personal_target": 15, "global_target": 1200 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 500 }] }
+            ]
+        },
+        {
+            "id": "spring_awakening",
+            "title": "Spring Awakening",
+            "description": "Life returns to the wasteland — and so do the horrors.",
+            "type": "seasonal",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/spring_awakening.jpg",
+            "start_month_day": "03-01",
+            "end_month_day": "03-21",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 1.8,
+            "resource_multiplier": 1.6,
+            "money_multiplier": 1.5,
+            "loot_rarity_multiplier": 1.6,
+            "global_elite_chance_multiplier": 1.5,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_SPRING_AWAKENING",
+            "kill_objectives": [
+                { "enemy_type_id": 2, "personal_target": 8000, "global_target": 750000, "loot_rarity_multiplier": 1.6, "spawn_weight_multiplier": 1.4, "power_level_multiplier": 1.2, "elite_chance_multiplier": 1.6 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 2, "personal_target": 20, "global_target": 1500 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 400 }] }
+            ]
+        },
+        {
+            "id": "summer_shadow_slayer",
+            "title": "Summer Shadow Slayer",
+            "description": "The longest days bring the deadliest nights.",
+            "type": "seasonal",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/summer_shadow_slayer.jpg",
+            "start_month_day": "06-01",
+            "end_month_day": "06-21",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.2,
+            "resource_multiplier": 1.7,
+            "money_multiplier": 1.8,
+            "loot_rarity_multiplier": 1.8,
+            "global_elite_chance_multiplier": 2.0,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_SUMMER_SLAYER",
+            "kill_objectives": [
+                { "enemy_type_id": 3, "personal_target": 12000, "global_target": 1000000, "loot_rarity_multiplier": 2.0, "spawn_weight_multiplier": 1.6, "power_level_multiplier": 1.4, "elite_chance_multiplier": 2.2 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 3, "personal_target": 25, "global_target": 2000 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "item", "name": "SummerSlayerCrate", "amount": 3, "rarity_tier": 4 }] }
+            ]
+        },
+        {
+            "id": "independence_purge",
+            "title": "Independence Purge",
+            "description": "Freedom is paid for in blood and brass.",
+            "type": "holiday",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/independence_purge.jpg",
+            "start_month_day": "07-02",
+            "end_month_day": "07-08",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.0,
+            "resource_multiplier": 1.6,
+            "money_multiplier": 1.7,
+            "loot_rarity_multiplier": 1.65,
+            "global_elite_chance_multiplier": 1.8,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_INDEPENDENCE_PURGE",
+            "kill_objectives": [
+                { "enemy_type_id": 4, "personal_target": 7000, "global_target": 600000, "loot_rarity_multiplier": 1.7, "spawn_weight_multiplier": 1.5, "power_level_multiplier": 1.3, "elite_chance_multiplier": 1.9 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 1, "personal_target": 18, "global_target": 1400 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 450 }] }
+            ]
+        },
+        {
+            "id": "autumn_apocalypse",
+            "title": "Autumn Apocalypse",
+            "description": "The harvest of the dead begins.",
+            "type": "seasonal",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/autumn_apocalypse.jpg",
+            "start_month_day": "09-01",
+            "end_month_day": "09-21",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.0,
+            "resource_multiplier": 1.65,
+            "money_multiplier": 1.7,
+            "loot_rarity_multiplier": 1.7,
+            "global_elite_chance_multiplier": 1.8,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_AUTUMN_APOCALYPSE",
+            "kill_objectives": [
+                { "enemy_type_id": 5, "personal_target": 10000, "global_target": 900000, "loot_rarity_multiplier": 1.9, "spawn_weight_multiplier": 1.6, "power_level_multiplier": 1.35, "elite_chance_multiplier": 2.0 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 2, "personal_target": 22, "global_target": 1800 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 600 }] }
+            ]
+        },
+        {
+            "id": "eternal_night",
+            "title": "Eternal Night",
+            "description": "The blood moon rises. Ancient evils awaken.",
+            "type": "holiday",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/eternal_night.jpg",
+            "start_month_day": "10-25",
+            "end_month_day": "11-07",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.5,
+            "resource_multiplier": 1.8,
+            "money_multiplier": 2.0,
+            "loot_rarity_multiplier": 2.2,
+            "global_elite_chance_multiplier": 2.5,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_ETERNAL_NIGHT",
+            "kill_objectives": [
+                { "enemy_type_id": 6, "personal_target": 15000, "global_target": 1200000, "loot_rarity_multiplier": 2.5, "spawn_weight_multiplier": 2.0, "power_level_multiplier": 1.5, "elite_chance_multiplier": 3.0 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 3, "personal_target": 30, "global_target": 2500 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "item", "name": "CursedCrate", "amount": 2, "rarity_tier": 5 }] }
+            ]
+        },
+        {
+            "id": "winter_wasteland",
+            "title": "Winter Wasteland",
+            "description": "The cold does not forgive. Only the worthy endure.",
+            "type": "seasonal",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/winter_wasteland.jpg",
+            "start_month_day": "12-01",
+            "end_month_day": "12-21",
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.1,
+            "resource_multiplier": 1.6,
+            "money_multiplier": 1.6,
+            "loot_rarity_multiplier": 1.75,
+            "global_elite_chance_multiplier": 1.9,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_WINTER_WASTELAND",
+            "kill_objectives": [
+                { "enemy_type_id": 7, "personal_target": 9000, "global_target": 800000, "loot_rarity_multiplier": 1.8, "spawn_weight_multiplier": 1.5, "power_level_multiplier": 1.4, "elite_chance_multiplier": 2.1 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 4, "personal_target": 20, "global_target": 1600 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "item", "name": "WinterSurvivorCrate", "amount": 3, "rarity_tier": 4 }] }
+            ]
+        }
     ]
-  }
+}
