@@ -1,0 +1,99 @@
+{
+    "last_updated": "2026-06-01T12:00:00Z",
+    "one_time_events": [
+        {
+            "id": "launch_day_survival",
+            "title": "Launch Day - The First Dawn",
+            "description": "The day Shadow Survival officially launched. Thousands of survivors fought together for the first time.",
+            "type": "one_time",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/launch_day.jpg",
+            "start_year": 2025,
+            "start_month": 6,
+            "start_day": 15,
+            "end_year": 2025,
+            "end_month": 6,
+            "end_day": 22,
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 3.0,
+            "resource_multiplier": 2.0,
+            "money_multiplier": 2.5,
+            "loot_rarity_multiplier": 2.0,
+            "global_elite_chance_multiplier": 2.5,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_LAUNCH_DAY",
+            "kill_objectives": [
+                { "enemy_type_id": 1, "personal_target": 10000, "global_target": 1000000, "loot_rarity_multiplier": 2.0, "spawn_weight_multiplier": 1.8, "power_level_multiplier": 1.5, "elite_chance_multiplier": 2.5 }
+            ],
+            "mission_objectives": [
+                { "mission_type_id": 1, "personal_target": 30, "global_target": 2500 }
+            ],
+            "reward_packages": [
+                { "rewards": [{ "type": "currency", "name": "EventTokens", "amount": 1000 }] }
+            ]
+        },
+        {
+            "id": "the_great_culling",
+            "title": "The Great Culling",
+            "description": "A catastrophic global event that wiped out 90% of the remaining population. The beginning of the true end.",
+            "type": "one_time",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/great_culling.jpg",
+            "start_year": 2024,
+            "start_month": 11,
+            "start_day": 3,
+            "end_year": 2024,
+            "end_month": 11,
+            "end_day": 10,
+            "start_hour_utc": 0,
+            "end_hour_utc": 23,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 1.0,
+            "resource_multiplier": 0.5,
+            "money_multiplier": 0.5,
+            "loot_rarity_multiplier": 0.8,
+            "global_elite_chance_multiplier": 3.0,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_GREAT_CULLING",
+            "kill_objectives": [],
+            "mission_objectives": [],
+            "reward_packages": []
+        },
+        {
+            "id": "first_blood_moon",
+            "title": "The First Blood Moon",
+            "description": "The night the sky turned red and the dead became truly unstoppable.",
+            "type": "one_time",
+            "banner_image_url": "https://raw.githubusercontent.com/castiger/Shadow_Survival_Events/refs/heads/main/banners/first_blood_moon.jpg",
+            "start_year": 2025,
+            "start_month": 10,
+            "start_day": 31,
+            "end_year": 2025,
+            "end_month": 11,
+            "end_day": 1,
+            "start_hour_utc": 18,
+            "end_hour_utc": 6,
+            "min_player_level": 1,
+            "max_player_level": 100,
+            "xp_multiplier": 2.8,
+            "resource_multiplier": 1.0,
+            "money_multiplier": 1.0,
+            "loot_rarity_multiplier": 2.5,
+            "global_elite_chance_multiplier": 4.0,
+            "enabled": true,
+            "show_in_menu": true,
+            "steam_stat_name": "EVENT_FIRST_BLOOD_MOON",
+            "kill_objectives": [
+                { "enemy_type_id": 6, "personal_target": 20000, "global_target": 2000000, "loot_rarity_multiplier": 3.0, "spawn_weight_multiplier": 3.0, "power_level_multiplier": 2.0, "elite_chance_multiplier": 5.0 }
+            ],
+            "mission_objectives": [],
+            "reward_packages": [
+                { "rewards": [{ "type": "item", "name": "BloodMoonRelic", "amount": 1, "rarity_tier": 6 }] }
+            ]
+        }
+    ]
+}
